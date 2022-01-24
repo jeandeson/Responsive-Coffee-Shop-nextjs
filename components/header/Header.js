@@ -38,7 +38,7 @@ const Header = () => {
         <a href="#products">Products</a>
         <a href="#review">Review</a>
         <a href="#contact">Contact</a>
-        <a href="#blogs">Contact</a>
+        <a href="#blogs">blogs</a>
       </nav>
 
       <div className={styles.icons}>

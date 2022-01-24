@@ -4,7 +4,7 @@ import Button from "../button/Button";
 
 const BlogSection = () => {
   return (
-    <section id="blog" className={styles.blog}>
+    <section id="blogs" className={styles.blog}>
       <SectionHeading span={"our"} text={"blogs"} />
       <div className={styles.boxContainer}>
         <div className={styles.box}>

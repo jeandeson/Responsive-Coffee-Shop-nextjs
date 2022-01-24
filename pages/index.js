@@ -7,6 +7,7 @@ import ProductsSection from "../components/productsSection/ProductsSection";
 import ReviewSection from "../components/reviewSection/ReviewSection";
 import ContactSection from "../components/contactSection/ContactSection";
 import BlogSection from "../components/blogSection/BlogSection";
+import FooterSection from "../components/footerSection/FooterSection";
 
 export default function Home({ title }) {
   return (
@@ -32,6 +33,7 @@ export default function Home({ title }) {
       <ReviewSection />
       <ContactSection />
       <BlogSection />
+      <FooterSection />
     </div>
   );
 }
