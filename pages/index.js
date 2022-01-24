@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import HomeSection from "../components/homeSection/HomeSection";
 import AboutSection from "../components/aboutSection/AboutSection";
 import MenuSection from "../components/menuSection/MenuSection";
+import ProductsSection from "../components/productsSection/productsSection";
 
 export default function Home({ title }) {
   return (
@@ -24,12 +25,7 @@ export default function Home({ title }) {
       <HomeSection />
       <AboutSection />
       <MenuSection />
+      <ProductsSection />
     </div>
   );
-}
-
-export async function getServerSideProps() {
-  return {
-    props: { title: "Coofee shop" },
-  };
 }
