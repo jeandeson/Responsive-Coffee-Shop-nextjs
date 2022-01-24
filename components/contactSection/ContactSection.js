@@ -1,5 +1,6 @@
 import styles from "./ContactSection.module.css";
 import SectionHeading from "../sectionHeading/sectionHeading";
+import Button from "../button/Button";
 
 const ReviewSection = () => {
   return (
@@ -29,7 +30,7 @@ const ReviewSection = () => {
             <input type="number" placeholder="number" />
           </div>
 
-          <input type="submit" value="contact now" />
+          <Button href={"#"} text={"contact now"} />
         </form>
       </div>
       {/* <div className={styles.boxContainer}>
