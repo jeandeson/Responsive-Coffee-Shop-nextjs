@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+  align-items: center;
+  background: var(--black);
+  flex-wrap: wrap;
+}
+
+.image{
+  flex: 1 1 45rem;
+}
+
+.image img {
+  width: 100%;
+}
+
+.content{
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+
+.content h3 {
+  font-size: 3rem;
+  color: #fff; 
+}
+
+.content p {
+  font-size: 1.6rem;
+  color: #ccc;
+  padding: 1rem 0;
+  line-height: 1.8;
+}

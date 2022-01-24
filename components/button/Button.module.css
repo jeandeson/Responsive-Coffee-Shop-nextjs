@@ -1,0 +1,24 @@
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--main-color);
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn.full{
+  width: 100%;
+}
+
+.btn:hover{
+  transform: scale(1.025);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,170 @@
+.header{
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+}
+
+.navbar a{
+  margin: 0px 1.6rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.navbar a:hover{
+  color: var(--main-color);
+  border-bottom: 1rem solid var(--main-color);
+  padding-bottom: .5rem;
+}
+
+.icons div {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.icons div:hover {
+  color: var(--main-color);
+}
+
+.icons div:last-of-type{
+  display: none;
+}
+
+.searchForm{
+  position: absolute;
+  top: 115%; right: 7%;
+  background: #fff;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0) ;
+  transform-origin: top;
+}
+.searchForm.searchActive{
+  transform: scaleY(1) ;
+  transform-origin: top;
+}
+
+.searchForm input{
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: var(--black);
+  padding: 1rem;
+  text-transform: none;
+}
+
+.searchForm label{
+  cursor: pointer;
+  font-size: 2.2rem;
+  margin-right: 1.5rem;
+  color: var(--black);
+}
+
+.searchForm label:hover{
+  color: var(--main-color);
+}
+
+.cartItemsContainer{
+  position: absolute;
+  top: 100%;
+  right: -150%;
+  height: calc(100vh - 9.5rem);
+  width: 35rem;
+  background-color: #fff;
+  padding: 0 1.5rem;
+}
+
+.cartItemsContainer.cartActive{
+  right: 0;
+}
+
+.cartItem{
+  position: relative;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+span.closeBtn{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--black);
+}
+
+span.closeBtn:hover{
+  color: var(--main-color);
+}
+
+.cartItem img{
+  font-size: 7rem;
+}
+
+.cartContent h3{
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: .5rem;
+}
+
+.price{
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.navbar.navActive{
+  position: absolute;
+  top: 100%; right: 0%;
+  background: #fff;
+  width: 30rem;
+  height: calc(100vh - 9.5rem);
+}
+
+/* medias cares */
+
+@media (max-width: 991px) {
+  .header{
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-btn{
+    display: inline-block;
+  }
+
+  .icons div:last-of-type{
+    display: initial;
+  }
+  
+  .navbar{
+    position: absolute;
+    top: 100%; right: -150%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: .5rem;
+    font-size: 2rem;
+  }
+
+  .searchForm{
+    width: 90%;
+    right: 2rem;
+  }
+}
