@@ -9,7 +9,6 @@
 .gmap{
   flex: 1 1 45rem;
   width: 100%;
-  min-height: 45rem;
   object-fit: cover;
 }
 

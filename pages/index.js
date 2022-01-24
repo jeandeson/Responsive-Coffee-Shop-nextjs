@@ -6,6 +6,7 @@ import MenuSection from "../components/menuSection/MenuSection";
 import ProductsSection from "../components/productsSection/ProductsSection";
 import ReviewSection from "../components/reviewSection/ReviewSection";
 import ContactSection from "../components/contactSection/ContactSection";
+import BlogSection from "../components/blogSection/BlogSection";
 
 export default function Home({ title }) {
   return (
@@ -30,6 +31,7 @@ export default function Home({ title }) {
       <ProductsSection />
       <ReviewSection />
       <ContactSection />
+      <BlogSection />
     </div>
   );
 }
