@@ -8,7 +8,9 @@ const BlogSection = () => {
       <SectionHeading span={"our"} text={"blogs"} />
       <div className={styles.boxContainer}>
         <div className={styles.box}>
-          <img src="images/blog-1.jpeg" alt="blog-post-1" />
+          <div className={styles.image}>
+            <img src="images/blog-1.jpeg" alt="blog-post-1" />
+          </div>
           <div className={styles.content}>
             <a href="#" className={styles.title}>
               tasty and refreshing coffee
@@ -21,7 +23,9 @@ const BlogSection = () => {
           </div>
         </div>
         <div className={styles.box}>
-          <img src="images/blog-2.jpeg" alt="blog-post-1" />
+          <div className={styles.image}>
+            <img src="images/blog-2.jpeg" alt="blog-post-2" />
+          </div>
           <div className={styles.content}>
             <a href="#" className={styles.title}>
               tasty and refreshing coffee
@@ -34,7 +38,9 @@ const BlogSection = () => {
           </div>
         </div>
         <div className={styles.box}>
-          <img src="images/blog-3.jpeg" alt="blog-post-1" />
+          <div className={styles.image}>
+            <img src="images/blog-3.jpeg" alt="blog-post-1" />
+          </div>
           <div className={styles.content}>
             <a href="#" className={styles.title}>
               tasty and refreshing coffee
