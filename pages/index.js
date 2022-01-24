@@ -5,6 +5,7 @@ import AboutSection from "../components/aboutSection/AboutSection";
 import MenuSection from "../components/menuSection/MenuSection";
 import ProductsSection from "../components/productsSection/ProductsSection";
 import ReviewSection from "../components/reviewSection/ReviewSection";
+import ContactSection from "../components/contactSection/ContactSection";
 
 export default function Home({ title }) {
   return (
@@ -28,6 +29,7 @@ export default function Home({ title }) {
       <MenuSection />
       <ProductsSection />
       <ReviewSection />
+      <ContactSection />
     </div>
   );
 }
