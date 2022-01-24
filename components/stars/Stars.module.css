@@ -1,0 +1,9 @@
+.stars{
+  padding: 1.5rem;
+}
+
+.stars i {
+  height: 50px;
+  font-size: 1.7rem;
+  color: var(--main-color);
+}

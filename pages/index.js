@@ -3,7 +3,8 @@ import Header from "../components/header/Header";
 import HomeSection from "../components/homeSection/HomeSection";
 import AboutSection from "../components/aboutSection/AboutSection";
 import MenuSection from "../components/menuSection/MenuSection";
-import ProductsSection from "../components/productsSection/productsSection";
+import ProductsSection from "../components/productsSection/ProductsSection";
+import ReviewSection from "../components/reviewSection/ReviewSection";
 
 export default function Home({ title }) {
   return (
@@ -26,6 +27,7 @@ export default function Home({ title }) {
       <AboutSection />
       <MenuSection />
       <ProductsSection />
+      <ReviewSection />
     </div>
   );
 }

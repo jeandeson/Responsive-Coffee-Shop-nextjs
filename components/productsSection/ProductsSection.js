@@ -1,5 +1,6 @@
 import styles from "./ProductsSection.module.css";
 import SectionHeading from "../sectionHeading/sectionHeading";
+import Stars from "../stars/stars";
 const ProductsSection = () => {
   return (
     <section id="products" className={styles.products}>
@@ -17,14 +18,7 @@ const ProductsSection = () => {
           </div>
           <div className={styles.content}>
             <h3>fresh coffee</h3>
-            <div className="stars">
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars-half-alt"></i>
-            </div>
+            <Stars />
             <div className={styles.price}>
               15.99 <span>20.99</span>
             </div>
@@ -42,14 +36,7 @@ const ProductsSection = () => {
           </div>
           <div className={styles.content}>
             <h3>fresh coffee</h3>
-            <div className="stars">
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars-half-alt"></i>
-            </div>
+            <Stars />
             <div className={styles.price}>
               15.99 <span>20.99</span>
             </div>
@@ -67,14 +54,7 @@ const ProductsSection = () => {
           </div>
           <div className={styles.content}>
             <h3>fresh coffee</h3>
-            <div className="stars">
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars"></i>
-              <i className="fas fa-stars-half-alt"></i>
-            </div>
+            <Stars />
             <div className={styles.price}>
               15.99 <span>20.99</span>
             </div>

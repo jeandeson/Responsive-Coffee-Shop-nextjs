@@ -1,0 +1,31 @@
+.boxContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.box{
+  text-align: center;
+  border: var(--border);
+  padding: 2rem;
+}
+
+.box p{
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #ccc;
+  padding: 2rem 0;
+}
+
+.box h3{
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.user{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
