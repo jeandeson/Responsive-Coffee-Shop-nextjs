@@ -6,7 +6,7 @@ const Stars = () => {
       <i className="fa fa-star"></i>
       <i className="fa fa-star"></i>
       <i className="fa fa-star"></i>
-      <i class="fas fa-star-half"></i>
+      <i className="fas fa-star-half"></i>
     </div>
   );
 };
