@@ -1,7 +1,5 @@
 This is a simple-stopwatch-glassmorphism build using nextJS and Typescript.
 <br>
-Demo
-<br>
 Home
 ![](https://github.com/jeandeson/Responsive-Coffee-Shop-nextjs/blob/main/demo/coffe-shop-demo1.png)
 About
