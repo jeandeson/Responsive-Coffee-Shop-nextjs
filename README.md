@@ -1,4 +1,4 @@
-This is a simple-stopwatch-glassmorphism build using nextJS and Typescript.
+This is a responsive coffee shop page build using nextJS.
 <br>
 Home
 ![](https://github.com/jeandeson/Responsive-Coffee-Shop-nextjs/blob/main/demo/coffe-shop-demo1.png)
